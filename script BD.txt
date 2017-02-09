@@ -1,0 +1,5 @@
+CREATE DATABASE ALMACEN;
+USE ALMACEN;
+CREATE TABLE Productos(ID int primary key, Nombre varchar(100),codigoBarras varchar(25));
+Insert into Productos(ID,Nombre,codigoBarras)VALUES(1,'Coca cola','2589632145');
+Insert into Productos(ID,Nombre,codigoBarras)VALUES(1,'Gansito','5425132145');

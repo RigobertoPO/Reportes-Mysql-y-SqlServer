@@ -1,0 +1,4 @@
+create database Almacen;
+use almacen;
+create table Productos(Id int primary key,Nombre varchar(50), codigoBarras varchar(20));
+insert into Productos(id, Nombre,codigoBarras)values(1,'Sabritas papas','3422112');
